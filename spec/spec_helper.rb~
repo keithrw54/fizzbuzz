@@ -1,0 +1,8 @@
+require 'byebug'
+
+describe 'fizzbuzz' do
+  it 'returns fizz on 3' do
+    expect(fizz(3)).to include "fizz"
+  end
+end
+  
